@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /projekte.html
+
+Sitemap: https://www.wearevita.tech/sitemap.xml
