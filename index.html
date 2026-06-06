@@ -647,6 +647,9 @@ footer{background:var(--navy);border-top:1px solid var(--border2);padding:52px 0
   letter-spacing:2px;margin-bottom:20px;
 }
 .hero-sub strong{color:var(--gold)}
+.hero-logo-top{margin-bottom:28px;opacity:0;animation:none}
+.hero-logo-top img{height:92px;width:auto;filter:drop-shadow(0 0 28px rgba(201,168,76,0.28))}
+@media(max-width:768px){.hero-logo-top img{height:72px}}
 @media(max-width:768px){
   .hero-vita-full{font-size:0.62rem;letter-spacing:0.12em}
 }
@@ -784,6 +787,8 @@ footer{background:var(--navy);border-top:1px solid var(--border2);padding:52px 0
       <a href="https://www.wearevita.tech" style="color:inherit;text-decoration:none">wearevita.tech</a>&nbsp;<span data-i18n="hero.badge">·&nbsp;IT-Partner in Österreich</span>
     </div>
 
+<div class="hero-logo-top fi"><img src="/vita_logo.png" alt="VITA – Visionary Information Technology Austria"></div>
+
 <h1 class="hero-title fi d1">
       <span class="gold">V I T A</span>
       <span class="hero-vita-full">Visionary Information Technology Austria</span>
@@ -793,7 +798,7 @@ footer{background:var(--navy);border-top:1px solid var(--border2);padding:52px 0
 
     <p class="hero-tagline fi d2" data-i18n="hero.tagline">Technologie. Sicherheit. Zukunft.</p>
 
-    <p class="hero-sub fi d3" data-i18n-html="hero.sub">Angriffe werden smarter. Prozesse komplexer. Märkte gnadenloser.<br>VITA ist der IT-Partner, der das weiß – und handelt. Mit KI-Lösungen, die greifen. Cybersecurity, die standhält. Compliance, die überzeugt.<br>Kompetenz, die Sie spüren. Sicherheit, der Sie vertrauen. Willkommen bei <strong><a href="https://www.wearevita.tech" style="color:var(--gold);text-decoration:none">wearevita.tech</a></strong>.</p>
+    <p class="hero-sub fi d3" data-i18n-html="hero.sub">Komplexe IT-Projekte sind unser Tagesgeschäft – von der CRM-Migration über 18 Länder bis zur vollständigen NIS2-Zertifizierung.<br>VITA verbindet technische Exzellenz mit echtem Branchenwissen: KI-Lösungen, die Wirkung zeigen. Cybersecurity, die standhält. Compliance, die Prüfungen besteht.<br>Erfahren. Verlässlich. Auf Augenhöhe. Willkommen bei <strong><a href="https://www.wearevita.tech" style="color:var(--gold);text-decoration:none">wearevita.tech</a></strong>.</p>
 
     <div class="hero-btns fi d4">
       <a href="#kontakt" class="btn-p">
@@ -801,7 +806,6 @@ footer{background:var(--navy);border-top:1px solid var(--border2);padding:52px 0
         <span data-i18n="hero.btn1">Kostenloses Erstgespräch</span>
       </a>
       <a href="#leistungen" class="btn-s" data-i18n="hero.btn2">Leistungen entdecken</a>
-      <a href="/projekte.html" class="btn-s" style="border-color:var(--gold);color:var(--gold)">★ Referenzen</a>
     </div>
 
     <div class="hero-stats fi d5">
@@ -841,7 +845,7 @@ footer{background:var(--navy);border-top:1px solid var(--border2);padding:52px 0
     <div class="fi">
       <div class="section-label" data-i18n="s.l.label">Unsere Leistungen</div>
       <h2 class="section-title" id="leistungen-title" data-i18n="s.l.title">Was wir für Sie tun</h2>
-      <p class="section-sub" data-i18n="s.l.sub">Sechs Kernbereiche – ein Partner. Wir begleiten Sie von der Strategie bis zur Umsetzung.</p>
+      <p class="section-sub" data-i18n="s.l.sub">Sechs Kompetenzfelder, ein erfahrener Partner. Von der strategischen Analyse bis zur erfolgreichen Umsetzung – mit nachgewiesener Expertise in jedem Bereich.</p>
     </div>
     <div class="ov-grid">
       <div class="ov-card fi d1">
@@ -849,7 +853,7 @@ footer{background:var(--navy);border-top:1px solid var(--border2);padding:52px 0
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
         </div>
         <div class="ov-title" data-i18n="c.ki.t">KI & Automatisierung</div>
-        <p class="ov-text" data-i18n="c.ki.d">Chatbots, KI-Lösungen und Prozessautomatisierung – maßgeschneidert für Ihr Unternehmen.</p>
+        <p class="ov-text" data-i18n="c.ki.d">Von der KI-Strategie über produktionsreife Chatbots bis zur durchgängigen Prozessautomatisierung – fundiert konzipiert, sauber implementiert.</p>
         <a href="#ki" class="ov-link">Details <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </div>
       <div class="ov-card fi d2">
@@ -857,7 +861,7 @@ footer{background:var(--navy);border-top:1px solid var(--border2);padding:52px 0
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
         </div>
         <div class="ov-title" data-i18n="c.cs.t">Cybersecurity</div>
-        <p class="ov-text" data-i18n="c.cs.d">Penetrationstests, SOC/SIEM, Zero Trust – proaktiver Schutz Ihrer digitalen Infrastruktur.</p>
+        <p class="ov-text" data-i18n="c.cs.d">Penetrationstests, SOC/SIEM-Integration und Zero-Trust-Architekturen – proaktiver Schutz auf aktuellem Stand der Technik.</p>
         <a href="#compliance" class="ov-link">Details <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </div>
       <div class="ov-card fi d3">
@@ -865,7 +869,7 @@ footer{background:var(--navy);border-top:1px solid var(--border2);padding:52px 0
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
         </div>
         <div class="ov-title" data-i18n="c.co.t">Compliance</div>
-        <p class="ov-text" data-i18n="c.co.d">NIS2, ISO 27001, DORA, DSGVO – wir führen Sie sicher durch alle regulatorischen Anforderungen.</p>
+        <p class="ov-text" data-i18n="c.co.d">NIS2, ISO 27001, DORA und DSGVO – wir führen Sie strukturiert und prüfungssicher zur vollständigen Konformität.</p>
         <a href="#compliance" class="ov-link">Details <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </div>
       <div class="ov-card fi d2">
@@ -873,24 +877,24 @@ footer{background:var(--navy);border-top:1px solid var(--border2);padding:52px 0
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </div>
         <div class="ov-title" data-i18n="c.sc.t">Schulungen & Support</div>
-        <p class="ov-text" data-i18n="c.sc.d">Security Awareness, KI-Workshops und technischer Support – Ihr Team ist bestens vorbereitet.</p>
+        <p class="ov-text" data-i18n="c.sc.d">Security-Awareness, KI-Workshops und technischer Support – damit Ihr Team sicher, kompetent und souverän arbeitet.</p>
         <a href="#schulungen" class="ov-link">Details <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </div>
       <div class="ov-card fi d3">
         <div class="ov-icon">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.5"><path d="M21 2v6h-6M3 12a9 9 0 0 1 15-6.7L21 8M3 22v-6h6M21 12a9 9 0 0 1-15 6.7L3 16"/></svg>
         </div>
-        <div class="ov-title" data-i18n="c.cn.t">IT-Consulting</div>
-        <p class="ov-text" data-i18n="c.cn.d">Strategische Begleitung bei Digital Transformation, Cloud-Projekten und IT-Architektur.</p>
-        <a href="#kontakt" class="ov-link">Anfragen <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        <div class="ov-title" data-i18n="c.cn.t">Implementierung & Migration</div>
+        <p class="ov-text" data-i18n="c.cn.d">Professionelle Einführung neuer Systeme und reibungslose Migration bestehender Lösungen – sorgfältig geplant, getestet und sauber umgesetzt.</p>
+        <a href="/projekte.html" class="ov-link">Referenzen <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </div>
       <div class="ov-card fi d4">
         <div class="ov-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
         </div>
-        <div class="ov-title" data-i18n="c.if.t">IT-Infrastruktur</div>
-        <p class="ov-text" data-i18n="c.if.d">Cloud, On-Premise oder Hybrid – wir planen, migrieren und betreiben Ihre IT-Infrastruktur.</p>
-        <a href="#kontakt" class="ov-link">Anfragen <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        <div class="ov-title" data-i18n="c.if.t">IT-Consulting & Infrastruktur</div>
+        <p class="ov-text" data-i18n="c.if.d">Strategische IT-Beratung, Cloud-Architektur und Infrastruktur – fundierte Entscheidungen für eine zukunftssichere, skalierbare IT-Landschaft.</p>
+        <a href="#vorgehen" class="ov-link">Mehr erfahren <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
       </div>
     </div>
   </div>
@@ -965,12 +969,6 @@ footer{background:var(--navy);border-top:1px solid var(--border2);padding:52px 0
         </div>
       </div>
     </div>
-    <div style="margin-top:32px;text-align:center" class="fi d3">
-      <a href="#kontakt" class="btn-p">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        KI-Projekt besprechen
-      </a>
-    </div>
   </div>
 </section>
 
@@ -997,10 +995,6 @@ footer{background:var(--navy);border-top:1px solid var(--border2);padding:52px 0
           <li>SIEM-Implementierungen und Security Operations</li>
           <li>Laufendes Monitoring und Anpassung an neue Anforderungen</li>
         </ul>
-        <a href="#kontakt" class="btn-p">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          Compliance-Check anfragen
-        </a>
       </div>
       <div class="comp-frameworks fi d2">
         <div class="fw-card">
@@ -1126,7 +1120,6 @@ footer{background:var(--navy);border-top:1px solid var(--border2);padding:52px 0
             <p class="support-item-text">Proaktives System-Monitoring und Notfall-Support – damit kritische Systeme rund um die Uhr laufen.</p>
           </div>
         </div>
-        <a href="#kontakt" class="btn-p" style="margin-top:8px;width:100%;justify-content:center">Support anfragen</a>
       </div>
     </div>
   </div>
@@ -1177,9 +1170,9 @@ footer{background:var(--navy);border-top:1px solid var(--border2);padding:52px 0
       <div class="cta-btns fi d2">
         <a href="#kontakt" class="btn-p">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          Jetzt kontaktieren
+          <span data-i18n="cta.btn">Kostenloses Erstgespräch</span>
         </a>
-        <a href="tel:+436701848382" class="btn-s">+43 670 1 84 83 82</a>
+        <a href="/projekte.html" class="btn-s" style="border-color:var(--gold);color:var(--gold)">★ Referenzen ansehen</a>
       </div>
     </div>
   </div>
@@ -1476,7 +1469,7 @@ const T = {
     // Hero
     'hero.badge':'·\u00a0IT-Partner in Österreich',
     'hero.tagline':'Technologie. Sicherheit. Zukunft.',
-    'hero.sub':'Angriffe werden smarter. Prozesse komplexer. Märkte gnadenloser.<br>VITA ist der IT-Partner, der das weiß – und handelt. Mit KI-Lösungen, die greifen. Cybersecurity, die standhält. Compliance, die überzeugt.<br>Kompetenz, die Sie spüren. Sicherheit, der Sie vertrauen. Willkommen bei <strong><a href="https://www.wearevita.tech" style="color:var(--gold);text-decoration:none">wearevita.tech</a></strong>.',
+    'hero.sub':'Komplexe IT-Projekte sind unser Tagesgeschäft – von der CRM-Migration über 18 Länder bis zur vollständigen NIS2-Zertifizierung.<br>VITA verbindet technische Exzellenz mit echtem Branchenwissen: KI-Lösungen, die Wirkung zeigen. Cybersecurity, die standhält. Compliance, die Prüfungen besteht.<br>Erfahren. Verlässlich. Auf Augenhöhe. Willkommen bei <strong><a href="https://www.wearevita.tech" style="color:var(--gold);text-decoration:none">wearevita.tech</a></strong>.',
     'hero.btn1':'Kostenloses Erstgespräch','hero.btn2':'Leistungen entdecken',
     'stat.1':'Maßgeschneidert','stat.2':'Compliance-ready','stat.3':'Support','stat.4':'Salzburg, AT',
     // Notdienst
@@ -1485,13 +1478,13 @@ const T = {
     'nd.btn':'Jetzt anrufen',
     // Leistungen
     's.l.label':'Unsere Leistungen','s.l.title':'Was wir für Sie tun',
-    's.l.sub':'Sechs Kernbereiche – ein Partner. Wir begleiten Sie von der Strategie bis zur Umsetzung.',
-    'c.ki.t':'KI & Automatisierung','c.ki.d':'Chatbots, KI-Lösungen und Prozessautomatisierung – maßgeschneidert für Ihr Unternehmen.',
-    'c.cs.t':'Cybersecurity','c.cs.d':'Penetrationstests, SOC/SIEM, Zero Trust – proaktiver Schutz Ihrer digitalen Infrastruktur.',
-    'c.co.t':'Compliance','c.co.d':'NIS2, ISO 27001, DORA, DSGVO – wir führen Sie sicher durch alle regulatorischen Anforderungen.',
-    'c.sc.t':'Schulungen & Support','c.sc.d':'Security Awareness, KI-Workshops und technischer Support – Ihr Team ist bestens vorbereitet.',
-    'c.cn.t':'IT-Consulting','c.cn.d':'Strategische Begleitung bei Digital Transformation, Cloud-Projekten und IT-Architektur.',
-    'c.if.t':'IT-Infrastruktur','c.if.d':'Cloud, On-Premise oder Hybrid – wir planen, migrieren und betreiben Ihre IT-Infrastruktur.',
+    's.l.sub':'Sechs Kompetenzfelder, ein erfahrener Partner. Von der strategischen Analyse bis zur erfolgreichen Umsetzung – mit nachgewiesener Expertise in jedem Bereich.',
+    'c.ki.t':'KI & Automatisierung','c.ki.d':'Von der KI-Strategie über produktionsreife Chatbots bis zur durchgängigen Prozessautomatisierung – fundiert konzipiert, sauber implementiert.',
+    'c.cs.t':'Cybersecurity','c.cs.d':'Penetrationstests, SOC/SIEM-Integration und Zero-Trust-Architekturen – proaktiver Schutz auf aktuellem Stand der Technik.',
+    'c.co.t':'Compliance','c.co.d':'NIS2, ISO 27001, DORA und DSGVO – wir führen Sie strukturiert und prüfungssicher zur vollständigen Konformität.',
+    'c.sc.t':'Schulungen & Support','c.sc.d':'Security-Awareness, KI-Workshops und technischer Support – damit Ihr Team sicher, kompetent und souverän arbeitet.',
+    'c.cn.t':'Implementierung & Migration','c.cn.d':'Professionelle Einführung neuer Systeme und reibungslose Migration bestehender Lösungen – sorgfältig geplant, getestet und sauber umgesetzt.',
+    'c.if.t':'IT-Consulting & Infrastruktur','c.if.d':'Strategische IT-Beratung, Cloud-Architektur und Infrastruktur – fundierte Entscheidungen für eine zukunftssichere, skalierbare IT-Landschaft.',
     // KI
     's.ki.label':'KI & Automatisierung','s.ki.title':'Intelligente Lösungen für Ihr Unternehmen',
     's.ki.sub':'Von KI-Chatbots über maßgeschneiderte KI-Konzepte bis hin zur vollständigen Prozessautomatisierung – wir machen Ihr Unternehmen zukunftsfähig.',
@@ -1510,7 +1503,7 @@ const T = {
     'vg.4t':'Betrieb & Optimierung','vg.4d':'Übergabe, Schulung und laufende Betreuung. Ihre Lösung wird kontinuierlich überwacht und verbessert.',
     // CTA
     'cta.title':'Ihr IT-Partner wartet auf Sie.',
-    'cta.sub':'Vereinbaren Sie jetzt Ihr kostenloses Erstgespräch. Wir analysieren Ihre IT-Situation und zeigen, wo KI, Sicherheit und Compliance für Sie den Unterschied machen.',
+    'cta.sub':'Vereinbaren Sie jetzt Ihr kostenloses Erstgespräch. Wir analysieren Ihre IT-Situation und zeigen, wo KI, Sicherheit und Compliance für Sie den Unterschied machen.','cta.btn':'Kostenloses Erstgespräch',
     // Kontakt
     's.kt.label':'Direkter Draht','s.kt.title':'Sprechen wir über Ihr Projekt',
     's.kt.sub':'Kein Standardangebot – wir nehmen uns Zeit für Ihre individuelle Situation.',
@@ -1536,7 +1529,7 @@ const T = {
     // Hero
     'hero.badge':'·\u00a0IT Partner in Austria',
     'hero.tagline':'Technology. Security. Future.',
-    'hero.sub':'Attacks grow smarter. Processes more complex. Markets more ruthless.<br>VITA is the IT partner that knows this – and acts on it. With AI that delivers results. Cybersecurity that holds the line. Compliance that convinces.<br>Expertise you feel. Security you trust. Welcome to <strong><a href="https://www.wearevita.tech" style="color:var(--gold);text-decoration:none">wearevita.tech</a></strong>.',
+    'hero.sub':'Complex IT projects are our daily business – from CRM migrations across 18 countries to full NIS2 certification.<br>VITA combines technical excellence with real industry knowledge: AI that delivers. Cybersecurity that holds. Compliance that passes audits.<br>Experienced. Reliable. As equals. Welcome to <strong><a href="https://www.wearevita.tech" style="color:var(--gold);text-decoration:none">wearevita.tech</a></strong>.',
     'hero.btn1':'Free Initial Consultation','hero.btn2':'Discover Our Services',
     'stat.1':'Tailored','stat.2':'Compliance-ready','stat.3':'Support','stat.4':'Salzburg, AT',
     // Notdienst
@@ -1545,13 +1538,13 @@ const T = {
     'nd.btn':'Call now',
     // Services
     's.l.label':'Our Services','s.l.title':'What we do for you',
-    's.l.sub':'Six core areas – one partner. We guide you from strategy to implementation.',
-    'c.ki.t':'AI & Automation','c.ki.d':'Chatbots, AI solutions and process automation – tailored to your business.',
-    'c.cs.t':'Cybersecurity','c.cs.d':'Penetration testing, SOC/SIEM, Zero Trust – proactive protection of your digital infrastructure.',
-    'c.co.t':'Compliance','c.co.d':'NIS2, ISO 27001, DORA, GDPR – we guide you safely through all regulatory requirements.',
-    'c.sc.t':'Training & Support','c.sc.d':'Security awareness, AI workshops and technical support – your team will be fully prepared.',
-    'c.cn.t':'IT Consulting','c.cn.d':'Strategic guidance for digital transformation, cloud projects and IT architecture.',
-    'c.if.t':'IT Infrastructure','c.if.d':'Cloud, on-premise or hybrid – we plan, migrate and operate your IT infrastructure.',
+    's.l.sub':'Six areas of expertise, one experienced partner. From strategic analysis to successful implementation – with proven expertise in every field.',
+    'c.ki.t':'AI & Automation','c.ki.d':'From AI strategy through production-ready chatbots to end-to-end process automation – soundly designed, cleanly implemented.',
+    'c.cs.t':'Cybersecurity','c.cs.d':'Penetration testing, SOC/SIEM integration and zero-trust architectures – proactive protection at the current state of the art.',
+    'c.co.t':'Compliance','c.co.d':'NIS2, ISO 27001, DORA and GDPR – we guide you in a structured, audit-proof way to full compliance.',
+    'c.sc.t':'Training & Support','c.sc.d':'Security awareness, AI workshops and technical support – so your team works securely, competently and confidently.',
+    'c.cn.t':'Implementation & Migration','c.cn.d':'Professional rollout of new systems and smooth migration of existing solutions – carefully planned, tested and cleanly executed.',
+    'c.if.t':'IT Consulting & Infrastructure','c.if.d':'Strategic IT consulting, cloud architecture and infrastructure – sound decisions for a future-proof, scalable IT landscape.',
     // AI
     's.ki.label':'AI & Automation','s.ki.title':'Intelligent solutions for your business',
     's.ki.sub':'From AI chatbots to custom AI concepts and full process automation – we make your business future-ready.',
