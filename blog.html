@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog & IT-Wissen | VITA – KI, Cybersecurity & Compliance</title>
+<meta name="description" content="Der VITA-Blog: praxisnahes Wissen zu KI, Cybersecurity, NIS2, Compliance und IT-Trends für Unternehmen in Salzburg und Österreich.">
+<meta name="keywords" content="IT Blog, NIS2, Cybersecurity, KI, Compliance, IT-Wissen Österreich">
+<meta name="author" content="Marko Djurasinovic">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://www.wearevita.tech/blog.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Blog & IT-Wissen | VITA">
+<meta property="og:description" content="Praxisnahes Wissen zu KI, Cybersecurity, NIS2 und Compliance für Unternehmen in Österreich.">
+<meta property="og:url" content="https://www.wearevita.tech/blog.html">
+<meta property="og:image" content="https://www.wearevita.tech/vita_logo.png">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0a1628">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#060e1e;--navy2:#0a1628;--navy3:#0f1e35;--gold:#c9a84c;--gold2:#e8c97a;--text:#c8d4e8;--text2:#8aa0bf;--white:#f0f4ff;--border:rgba(201,168,76,0.2);--border2:rgba(201,168,76,0.07)}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{background:var(--navy);color:var(--text);font-family:'Barlow',sans-serif;font-weight:300;line-height:1.75;overflow-x:hidden}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-thumb{background:var(--gold)}
+body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(201,168,76,0.022) 1px,transparent 1px),linear-gradient(90deg,rgba(201,168,76,0.022) 1px,transparent 1px);background-size:56px 56px;pointer-events:none;z-index:0}
+.wrap{max-width:820px;margin:0 auto;padding:0 32px;position:relative;z-index:1}
+.wrap-wide{max-width:1080px;margin:0 auto;padding:0 32px;position:relative;z-index:1}
+nav{position:sticky;top:0;z-index:100;background:rgba(6,14,30,0.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--border2)}
+.nav-in{max-width:1080px;margin:0 auto;padding:14px 32px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.nav-logo{display:flex;align-items:center;gap:12px;text-decoration:none}.nav-logo img{height:42px}
+.nav-logo span{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:1.4rem;color:var(--white);letter-spacing:3px}
+.nav-cta{display:flex;align-items:center;gap:14px}
+.nav-back{color:var(--text2);text-decoration:none;font-size:0.82rem;font-family:'Rajdhani',sans-serif;font-weight:600;letter-spacing:1px}.nav-back:hover{color:var(--gold)}
+.btn-nav{background:var(--gold);color:var(--navy);padding:9px 20px;font-family:'Rajdhani',sans-serif;font-weight:700;font-size:0.82rem;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none}.btn-nav:hover{background:var(--gold2)}
+header.bhero{padding:60px 0 40px;position:relative;overflow:hidden}
+.bhero-glow{position:absolute;inset:0;z-index:0;background:radial-gradient(ellipse 55% 60% at 30% 30%,rgba(201,168,76,0.06),transparent 70%),linear-gradient(160deg,var(--navy),var(--navy2) 70%,var(--navy))}
+.bc{position:relative;z-index:1;font-size:0.75rem;color:var(--text2);font-family:'Rajdhani',sans-serif;letter-spacing:1px;margin-bottom:20px}
+.bc a{color:var(--gold);text-decoration:none}.bc span{margin:0 7px}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:0.66rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold);font-family:'Rajdhani',sans-serif;font-weight:700;margin-bottom:16px;position:relative;z-index:1}
+.eyebrow::before{content:'';width:26px;height:1px;background:var(--gold)}
+h1{position:relative;z-index:1;font-family:'Rajdhani',sans-serif;font-weight:700;font-size:clamp(2rem,4.5vw,3.2rem);line-height:1.1;color:var(--white);margin-bottom:18px}
+.meta{position:relative;z-index:1;font-size:0.85rem;color:var(--text2);font-family:'Rajdhani',sans-serif;letter-spacing:0.5px}
+.meta b{color:var(--gold);font-weight:600}
+article{padding:30px 0 70px}
+article h2{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:1.6rem;color:var(--white);margin:38px 0 14px}
+article h3{font-family:'Rajdhani',sans-serif;font-weight:600;font-size:1.2rem;color:var(--gold);margin:26px 0 10px}
+article p{margin-bottom:16px;color:var(--text);font-size:1.02rem}
+article ul{margin:0 0 18px 0;list-style:none}
+article li{position:relative;padding-left:26px;margin-bottom:11px;color:var(--text)}
+article li::before{content:'';position:absolute;left:0;top:9px;width:9px;height:9px;border:2px solid var(--gold);transform:rotate(45deg)}
+article strong{color:var(--white);font-weight:600}
+.lead{font-size:1.15rem!important;color:var(--text2)!important;border-left:3px solid var(--gold);padding-left:20px;margin-bottom:30px}
+.cta-box{background:var(--navy3);border:1px solid var(--border);padding:34px;text-align:center;margin-top:46px}
+.cta-box h3{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:1.4rem;color:var(--white);margin-bottom:10px}
+.cta-box p{color:var(--text2);margin-bottom:22px}
+.btn-p{display:inline-flex;align-items:center;gap:9px;background:var(--gold);color:var(--navy);padding:13px 28px;font-family:'Rajdhani',sans-serif;font-weight:700;font-size:0.88rem;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none}.btn-p:hover{background:var(--gold2)}
+.post-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;padding:30px 0 70px}
+.post-card{display:block;text-decoration:none;background:var(--navy2);border:1px solid var(--border2);padding:30px 28px;transition:all 0.35s}
+.post-card:hover{transform:translateY(-3px);border-color:var(--border);box-shadow:0 18px 40px rgba(0,0,0,0.4)}
+.post-tag{font-family:'Rajdhani',sans-serif;font-size:0.66rem;letter-spacing:2px;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:12px}
+.post-card h2{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:1.3rem;color:var(--white);margin-bottom:10px;line-height:1.25}
+.post-card p{font-size:0.9rem;color:var(--text2);margin-bottom:14px}
+.post-meta{font-size:0.76rem;color:var(--text2);font-family:'Rajdhani',sans-serif;letter-spacing:0.5px}
+.soon{background:var(--navy2);border:1px dashed var(--border);padding:30px 28px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.soon p{color:var(--text2);font-size:0.88rem}
+footer{background:var(--navy);border-top:1px solid var(--border2);padding:34px 0;position:relative;z-index:1;text-align:center;font-size:0.78rem;color:var(--text2)}
+footer a{color:var(--gold);text-decoration:none}
+@media(max-width:820px){.post-grid{grid-template-columns:1fr}.nav-back{display:none}}
+</style>
+</head>
+<body>
+<nav><div class="nav-in"><a href="/" class="nav-logo"><img src="/vita_logo.png" alt="VITA Logo"><span>VITA</span></a><div class="nav-cta"><a href="/" class="nav-back">← Startseite</a><a href="/#kontakt" class="btn-nav">Kontakt</a></div></div></nav>
+<header class="bhero"><div class="bhero-glow"></div><div class="wrap-wide">
+<div class="eyebrow">VITA Blog</div>
+<h1>IT-Wissen, das weiterbringt</h1>
+<p class="meta" style="font-size:1.05rem;color:var(--text2);max-width:600px">Praxisnahe Einblicke zu KI, Cybersecurity, NIS2 und Compliance – verständlich erklärt für Unternehmen in Salzburg und ganz Österreich.</p>
+</div></header>
+<div class="wrap-wide">
+<div class="post-grid">
+  <a href="/blog-nis2-oesterreich.html" class="post-card">
+    <div class="post-tag">Compliance · Cybersecurity</div>
+    <h2>NIS2 in Österreich: Was Unternehmen jetzt wissen müssen</h2>
+    <p>Wer ist von NIS2 betroffen, welche Pflichten gelten und was sollten Sie jetzt konkret tun? Der kompakte Überblick.</p>
+    <div class="post-meta">8. Juni 2026 · 6 Min.</div>
+  </a>
+  <div class="soon">
+    <div class="post-tag">Demnächst</div>
+    <p>Weitere Artikel zu KI-Automatisierung, IT-Sicherheit und Digitalisierung folgen in Kürze.</p>
+  </div>
+</div>
+</div>
+<footer><div class="wrap-wide">© 2026 <a href="/">VITA</a> · Visionary Information Technology Austria · <a href="/">wearevita.tech</a></div></footer>
+</body></html>
