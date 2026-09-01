@@ -29,9 +29,23 @@ Das Erstgespräch ist kostenlos und unverbindlich. Anfragen über https://www.we
 
 ## Weitere Seiten
 
-- KI & Automatisierung: https://www.wearevita.tech/ki-automatisierung.html
-- Cyber Security: https://www.wearevita.tech/cybersecurity.html
-- Business IT (CRM & ERP): https://www.wearevita.tech/business-it.html
-- Governance & Compliance: https://www.wearevita.tech/governance-compliance.html
-- Schulungen & Support: https://www.wearevita.tech/schulungen-support.html
-- Blog / IT-Wissen: https://www.wearevita.tech/blog.html
+- KI & Automatisierung: https://www.wearevita.tech/ki-automatisierung
+- Cyber Security: https://www.wearevita.tech/cybersecurity
+- Business IT (CRM & ERP): https://www.wearevita.tech/business-it
+- Governance & Compliance: https://www.wearevita.tech/governance-compliance
+- Schulungen & Support: https://www.wearevita.tech/schulungen-support
+- Blog / IT-Wissen: https://www.wearevita.tech/blog
+
+## Regionale & regulatorische Seiten
+
+- NIS2-Partner Österreich (NISG-Umsetzung): https://www.wearevita.tech/nis2-partner-oesterreich
+- ISO 27001 Österreich (ISMS-Aufbau & Zertifizierung): https://www.wearevita.tech/iso-27001-oesterreich
+- DORA-Beratung (Finanzsektor, ICT-Risk): https://www.wearevita.tech/dora-beratung
+- NIS2-Beratung Salzburg: https://www.wearevita.tech/nis2-beratung-salzburg
+- Cybersecurity Salzburg: https://www.wearevita.tech/cybersecurity-salzburg
+- IT-Dienstleister Salzburg: https://www.wearevita.tech/it-dienstleister-salzburg
+- IT-Support Salzburg: https://www.wearevita.tech/it-support-salzburg
+
+## Schwerpunkte / Keywords
+
+NIS2 Partner Österreich, NIS2 Beratung Österreich, NISG 2026, ISO 27001 Österreich, ISO 27001 Zertifizierung, ISMS Aufbau, DORA Compliance Österreich, DORA Finanzsektor, KI Partner Österreich, KI Automatisierung Österreich, Cybersecurity Österreich, IT-Sicherheit Österreich, Penetrationstest Österreich, Informationssicherheit Österreich, IT-Compliance Österreich, Managed Security Österreich, DSGVO Beratung Österreich, Security Awareness Schulung Österreich, IT-Dienstleister Österreich, IT-Partner Salzburg.
